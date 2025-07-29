@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const SPREADSHEET_ID = '1EwK-Co9glsswvy9pQpWeLxq8QXGt5SUaQOYekQ4rTJE';
-    const SHEET_NAME = 'TS7';
+    const SHEET_NAME = 'TS8';
     const GOOGLE_SHEETS_API_URL = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&sheet=${SHEET_NAME}`;
 
     const loginSection = document.getElementById('login-section');
